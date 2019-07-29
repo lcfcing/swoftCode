@@ -20,6 +20,7 @@ class TestController
      * @return int
      */
     public function test(){
+
         return ['1','2','2'];
     }
 
