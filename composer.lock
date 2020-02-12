@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "118aa9f1baf909f3aa9fb225ee78bd2f",
@@ -2321,28 +2321,28 @@
         },
         {
             "name": "symfony/var-exporter",
-            "version": "v4.3.2",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "9dee83031dcf6dcb53bb7ec1c51de085329bf5cb"
+                "reference": "1a76a943f2af334da13bc9f33f49392fa530eec9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/9dee83031dcf6dcb53bb7ec1c51de085329bf5cb",
-                "reference": "9dee83031dcf6dcb53bb7ec1c51de085329bf5cb",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/1a76a943f2af334da13bc9f33f49392fa530eec9",
+                "reference": "1a76a943f2af334da13bc9f33f49392fa530eec9",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3"
             },
             "require-dev": {
-                "symfony/var-dumper": "^4.1.1"
+                "symfony/var-dumper": "^4.1.1|^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -2377,7 +2377,7 @@
                 "instantiate",
                 "serialize"
             ],
-            "time": "2019-06-22T08:39:44+00:00"
+            "time": "2020-01-04T13:00:46+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -3338,8 +3338,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "role": "lead",
-                    "email": "sebastian@phpunit.de"
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
                 }
             ],
             "description": "The PHP Unit Testing framework.",
@@ -3923,27 +3923,31 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/swoft-cloud/swoole-ide-helper.git",
-                "reference": "9de6d57310df0e533ffc6027cb54f06287f4b599"
+                "reference": "470f15208ddf50b2fe04a2b502fd8bf16a498c3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swoft-cloud/swoole-ide-helper/zipball/9de6d57310df0e533ffc6027cb54f06287f4b599",
-                "reference": "9de6d57310df0e533ffc6027cb54f06287f4b599",
+                "url": "https://api.github.com/repos/swoft-cloud/swoole-ide-helper/zipball/470f15208ddf50b2fe04a2b502fd8bf16a498c3a",
+                "reference": "470f15208ddf50b2fe04a2b502fd8bf16a498c3a",
                 "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.1"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
-            "description": "ide helper for Swoft and Swoole",
+            "description": "IDE helper for Swoft and Swoole",
             "keywords": [
                 "ide-helper",
                 "php",
                 "swoft",
                 "swoole"
             ],
-            "time": "2019-07-19T04:02:06+00:00"
+            "time": "2019-11-21T02:34:24+00:00"
         },
         {
             "name": "theseer/tokenizer",
